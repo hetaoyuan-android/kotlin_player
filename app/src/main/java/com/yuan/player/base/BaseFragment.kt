@@ -34,9 +34,9 @@ abstract class BaseFragment: Fragment(), AnkoLogger {
         initData()
     }
 
-    protected fun initListener() {}
+    protected open fun initListener() {}
 
-    protected fun initData() {}
+    protected open fun initData() {}
 
     abstract fun initView(): View?
 

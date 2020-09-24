@@ -26,4 +26,11 @@ interface ToolbarManager {
             true
         }
     }
+
+    /**
+     * 处理设置界面的toolbar
+     */
+    fun initSettingToolbar() {
+        toolbar.title = "设置"
+    }
 }
