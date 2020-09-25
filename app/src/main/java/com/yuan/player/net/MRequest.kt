@@ -3,7 +3,7 @@ package com.yuan.player.net
 import com.google.gson.Gson
 import java.lang.reflect.ParameterizedType
 
-class MRequest<RESPONSE>(val type:Int,val url:String, val handler: ResponseHandler<RESPONSE>) {
+open class MRequest<RESPONSE>(val type:Int,val url:String, val handler: ResponseHandler<RESPONSE>) {
     /**
      * 解析网络请求结果
      */

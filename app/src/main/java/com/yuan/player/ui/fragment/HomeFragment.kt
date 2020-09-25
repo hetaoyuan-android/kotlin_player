@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.itheima.player.model.bean.HomeItemBean
 import com.yuan.player.R
 import com.yuan.player.adapter.HomeAdapter
 import com.yuan.player.base.BaseFragment
-import com.yuan.player.model.HomeItemBean
 import com.yuan.player.presenter.impl.HomePresenterImpl
 import com.yuan.player.util.ThreadUtil
 import com.yuan.player.util.URLProviderUtils
@@ -112,6 +112,10 @@ class HomeFragment: BaseFragment(), HomeView {
             }
 
         })
+    }
+
+    override fun onError(message: String) {
+
     }
 
     override fun loadSuccess(list: MutableList<HomeItemBean>) {

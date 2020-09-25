@@ -1,10 +1,9 @@
 package com.yuan.player.presenter.impl
 
-import com.yuan.player.model.HomeItemBean
+import com.itheima.player.model.bean.HomeItemBean
 import com.yuan.player.presenter.interf.HomePresenter
 import com.yuan.player.util.ThreadUtil
 import com.yuan.player.view.HomeView
-import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomePresenterImpl(var homeView: HomeView): HomePresenter {
     override fun loadData() {
@@ -23,6 +22,7 @@ class HomePresenterImpl(var homeView: HomeView): HomePresenter {
     }
 
     override fun loadMoreData() {
+
         val bean = HomeItemBean("周杰伦", "稻香", "http://www.baidu.com")
         val bean2 = HomeItemBean("张信哲", "过火", "http://www.baidu.com")
         val bean3 = HomeItemBean("张良", "童话", "http://www.baidu.com")

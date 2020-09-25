@@ -1,4 +1,4 @@
-package com.yuan.player.model
+package com.itheima.player.model.bean
 
 /**
  * ClassName:HomeItemBean

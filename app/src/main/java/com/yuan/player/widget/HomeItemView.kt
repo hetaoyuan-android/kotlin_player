@@ -4,9 +4,9 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.RelativeLayout
+import com.itheima.player.model.bean.HomeItemBean
 import com.squareup.picasso.Picasso
 import com.yuan.player.R
-import com.yuan.player.model.HomeItemBean
 import kotlinx.android.synthetic.main.item_home.view.*
 
 

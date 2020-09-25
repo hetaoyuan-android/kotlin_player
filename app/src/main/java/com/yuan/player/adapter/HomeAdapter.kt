@@ -3,7 +3,7 @@ package com.yuan.player.adapter
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.yuan.player.model.HomeItemBean
+import com.itheima.player.model.bean.HomeItemBean
 import com.yuan.player.widget.HomeItemView
 import com.yuan.player.widget.LoadMoreView
 import java.util.ArrayList
